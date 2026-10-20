@@ -38,4 +38,4 @@ jobs:
         run: |
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
             -Dsonar.projectKey=tarefas-api \
-            -Dsonar.organization=anisio-ifsp
+            -Dsonar.organization=helijus
